@@ -2,7 +2,6 @@ class Solution(object):
     def isAnagram(self, s, t):
         """
         total count of each character in string s must be equal to that of string t = valid anagram
-
         Approach: 
         1) iterate and store char count of 2 strings in 2 separate maps, compare both maps --- time: O(n) or O(s or t), space: O(n) or O(s + t) 
         """
