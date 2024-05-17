@@ -14,4 +14,5 @@ class Solution(object):
 
         if(ss==rev):
             return True
+            
         return False      
